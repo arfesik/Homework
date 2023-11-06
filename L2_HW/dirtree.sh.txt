@@ -1,0 +1,12 @@
+// Создание структуры каталогов и файлов
+
+#!/bin/bash
+mkdir mydir/mydir1
+mkdir mydir/mydir2
+mkdir mydir/mydir3
+
+mkdir mydir/mydir2/mydir2.1
+mkdir mydir/mydir2/mydir2.2
+
+cd /home/alex/mydir/mydir2/mydir2.2
+touch mydirtext.txt

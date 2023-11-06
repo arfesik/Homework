@@ -1,0 +1,27 @@
+// Создание 30 директорий по 20 файлов с помощью bash script
+
+#!/bin/bash
+
+echo -e "\n Enter dir name:"
+read name
+
+echo -e "\n Enter dir amount:"
+read the_count
+
+dir_name=$name
+
+echo -e "\n Enter file amount:"
+read file_count
+
+file_count_x=$file_count
+
+for ((i = 1; i <= $the_count; ++i))
+  do
+   dir_name=$name+$i
+   mkdir $dir_name
+     for ((x = 1; x <= $file_count; ++x))
+       do
+        file_count_x=$file_count+$x
+        touch /$HOME/$dir_name/$file_count_x
+       done
+  done

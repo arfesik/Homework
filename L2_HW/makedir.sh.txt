@@ -1,0 +1,5 @@
+// Создание 30-ти директорий по 20 файлов с помощью команд
+
+#!/bin/bash
+mkdir folder{1..30}
+touch /home/alex/folder{1..30}/file{A..T}
