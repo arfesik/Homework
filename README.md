@@ -1,2 +1,2 @@
 # Homework
-ITMO C++ junior developer homeworks
+ITMO C++ junior developer homework
